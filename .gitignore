@@ -1,0 +1,7 @@
+# common, PHPStorm
+.DS_Store
+**/.idea
+Thumbs.db
+
+# composer
+vendor/*
