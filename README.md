@@ -1,6 +1,6 @@
 # wordsmaker
 
-Требуемая версия php >=7.0 + composer
+Требуемая версия php >=7.0 + mbstring extension + composer
 
 ## Использование скрипта:
 * Скачать проект из  Github
