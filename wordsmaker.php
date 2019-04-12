@@ -8,7 +8,7 @@ use App\WordsMaker\WordsMaker;
 define('ROOT', __DIR__);
 
 //Определяем, введены ли аргументы
-if ($argv[1] && $argv[2]) {
+if (isset($argv[1]) && isset($argv[2])) {
     $first = $argv[1];
     $last = $argv[2];
     echo "Вы ввели: {$first}, {$last}. \n\r";
