@@ -7,10 +7,6 @@ use App\WordsMaker\WordsMaker;
 
 define('ROOT', __DIR__);
 
-ini_set('error_reporting', E_ALL);
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-
 //Определяем, введены ли аргументы
 if ($argv[1] && $argv[2]) {
     $first = $argv[1];
